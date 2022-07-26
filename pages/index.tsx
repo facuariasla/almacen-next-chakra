@@ -1,4 +1,4 @@
-import { Button, Grid, Link, Stack, Text } from "@chakra-ui/react";
+import { Button, Grid, Image, Link, Stack, Text } from "@chakra-ui/react";
 import { GetStaticProps } from "next";
 import React, { useState } from "react";
 import api from "../product/api";
@@ -45,6 +45,7 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
             p={4}
           >
             <Stack spacing={1}>
+              <Image maxH='128px' objectFit='contain' src={product.image}/>
               <Text>{product.title}</Text>
               <Text color="green.500" fontSize="sm" fontWeight="500">
                 {parseCurrency(product.price)}
