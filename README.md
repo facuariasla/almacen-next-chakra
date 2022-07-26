@@ -6,7 +6,7 @@ https://almacen-next-chakra.vercel.app/
 * App using NextJS and TypeScript
 * Stock data from Google Sheets, parsed with Papaparse
 * Styled with ChakraUI, and framer-motion
-* Based from https://twitter.com/goncy mini-proyect 
+* Based in https://twitter.com/goncy mini-proyect 
 ## Getting Started
 
 First, run the development server:
