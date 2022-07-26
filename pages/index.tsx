@@ -96,6 +96,7 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
             >
               <Button
                 maxW="400px"
+                size='lg'
                 width="100%"
                 as={Link}
                 colorScheme="whatsapp"
@@ -103,6 +104,7 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
                   text
                 )}`}
                 isExternal
+                leftIcon={<Image src="https://icongr.am/fontawesome/whatsapp.svg?size=26&color=ffffff"/>}
               >
                 Completar pedido ({cart.length})
               </Button>
