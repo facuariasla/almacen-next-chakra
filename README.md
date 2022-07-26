@@ -1,6 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 # Access link
 https://almacen-next-chakra.vercel.app/
+
+## Description
+* App using NextJS and TypeScript
+* Stock data from Google Sheets, parsed with Papaparse
+* Styled with ChakraUI, and framer-motion
+* Based from https://twitter.com/goncy mini-proyect 
 ## Getting Started
 
 First, run the development server:
