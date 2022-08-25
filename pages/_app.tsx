@@ -5,11 +5,8 @@ import {
   ChakraProvider,
   Container,
   Divider,
-  Heading,
-  Image,
   Stack,
   Text,
-  VStack,
 } from "@chakra-ui/react";
 import { AppProps } from "next/app";
 import theme from "../theme";
@@ -30,15 +27,6 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
           p={4}
           borderRadius="sm"
         >
-          {/* <VStack mb={6}>
-            <Image
-              borderRadius={9999}
-              src="https://placeimg.com/180/180/tech"
-            />
-            <Heading>Almacen</Heading>
-            <Text>El almacen de Pepe</Text>
-
-          </VStack> */}
           <Stack display="flex" w="100%" justify="center" align="center">
             <Stack
               border="16px solid red"
@@ -58,7 +46,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
                 m="0"
                 lineHeight={1}
               >
-                PEPE's
+                PEPE&apos;s
               </Text>
               <Text
                 color="red"

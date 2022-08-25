@@ -127,7 +127,7 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
             width="100%"
             onClick={() => setSelectedImage(null)}
           >
-            <Image key="image" src={selectedImage} height="100vh" />
+            <Image key="image" src={selectedImage} height="100vh" alt='product' />
           </Flex>
         )}
       </AnimatePresence>
