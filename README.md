@@ -4,7 +4,7 @@ https://pepealmacen.vercel.app/
 
 ## Description
 * App using NextJS and TypeScript
-* Stock data from Google Sheets, parsed with Papaparse
+* Stock data from Google Sheets, parsed with [Papaparse](https://github.com/mholt/PapaParse)
 * Styled with ChakraUI, and framer-motion
 * Based on https://twitter.com/goncy mini-proyect 
 ## Getting Started
