@@ -20,6 +20,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
     <ChakraProvider theme={theme}>
       <Head>
         <title>Almacen Pepe</title>
+        <link rel="icon" href="/logopepes.png" />
       </Head>
       <Box p={4}>
         <Container
