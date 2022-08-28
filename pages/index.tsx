@@ -66,7 +66,7 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
                   cursor="pointer"
                   onClick={() => setSelectedImage(product.image)}
                 />
-                <Text>{product.title}</Text>
+                <Text color="gray.700">{product.title}</Text>
                 <Text color="green.500" fontSize="sm" fontWeight="500">
                   {parseCurrency(product.price)}
                 </Text>
@@ -96,7 +96,7 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
             >
               <Button
                 maxW="400px"
-                size='lg'
+                size="lg"
                 width="100%"
                 as={Link}
                 colorScheme="whatsapp"
@@ -104,7 +104,9 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
                   text
                 )}`}
                 isExternal
-                leftIcon={<Image src="https://icongr.am/fontawesome/whatsapp.svg?size=26&color=ffffff"/>}
+                leftIcon={
+                  <Image src="https://icongr.am/fontawesome/whatsapp.svg?size=26&color=ffffff" />
+                }
               >
                 Completar pedido ({cart.length})
               </Button>
@@ -125,9 +127,10 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
             top={0}
             left={0}
             width="100%"
+            height="100%"
             onClick={() => setSelectedImage(null)}
           >
-            <Image key="image" src={selectedImage} height="100vh" alt='product' />
+            <Image key="image" src={selectedImage} width={400}  alt="product" />
           </Flex>
         )}
       </AnimatePresence>
