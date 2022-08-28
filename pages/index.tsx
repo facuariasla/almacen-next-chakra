@@ -105,7 +105,7 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
                 )}`}
                 isExternal
                 leftIcon={
-                  <Image src="https://icongr.am/fontawesome/whatsapp.svg?size=26&color=ffffff" />
+                  <Image alt='whatsapp icon' width={8} height={8} src="https://icongr.am/fontawesome/whatsapp.svg?size=26&color=ffffff" />
                 }
               >
                 Completar pedido ({cart.length})
@@ -130,7 +130,7 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
             height="100%"
             onClick={() => setSelectedImage(null)}
           >
-            <Image key="image" src={selectedImage} width={400}  alt="product" />
+            <Image key="image" width={400} src={selectedImage} alt="product" />
           </Flex>
         )}
       </AnimatePresence>
