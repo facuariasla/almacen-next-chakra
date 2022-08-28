@@ -50,8 +50,8 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
               </Text>
               <Text
                 color="red"
-                fontWeight={500}
-                fontSize={12}
+                fontWeight={700}
+                fontSize={16}
                 m="0"
                 lineHeight={1}
                 marginTop="0px"

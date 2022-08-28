@@ -66,8 +66,8 @@ const IndexRoute: React.FC<Props> = ({ products }) => {
                   cursor="pointer"
                   onClick={() => setSelectedImage(product.image)}
                 />
-                <Text color="gray.700">{product.title}</Text>
-                <Text color="green.500" fontSize="sm" fontWeight="500">
+                <Text fontWeight={500} color="gray.700">{product.title}</Text>
+                <Text color="green.500" fontSize="md" fontWeight={700}>
                   {parseCurrency(product.price)}
                 </Text>
               </Stack>
